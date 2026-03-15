@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/ts-ts-guard.git"
+    "url": "git+https://github.com/philiprehberger/ts-guard.git"
   },
-  "homepage": "https://github.com/philiprehberger/ts-ts-guard#readme",
+  "homepage": "https://github.com/philiprehberger/ts-guard#readme",
   "bugs": {
-    "url": "https://github.com/philiprehberger/ts-ts-guard/issues"
+    "url": "https://github.com/philiprehberger/ts-guard/issues"
   },
   "author": "Philip Rehberger",
   "engines": {
