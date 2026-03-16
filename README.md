@@ -1,6 +1,6 @@
 # @philiprehberger/ts-guard
 
-[![CI](https://github.com/philiprehberger/ts-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-guard/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-guard/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-guard/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-guard.svg)](https://www.npmjs.com/package/@philiprehberger/ts-guard)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-guard)](LICENSE)
 
@@ -58,6 +58,15 @@ isPair(['hello', 42]);     // true
 | `isObjectWith(shape)` | Object matching shape of guards |
 | `isTupleOf(...guards)` | Tuple matching guards positionally |
 | `assert(value, guard, message?)` | Throw if guard fails, narrow otherwise |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
