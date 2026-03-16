@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/ts-guard",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Runtime type guard utilities with TypeScript narrowing",
   "type": "module",
   "main": "./dist/index.cjs",
