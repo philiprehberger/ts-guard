@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-guard.svg)](https://www.npmjs.com/package/@philiprehberger/ts-guard)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-guard)](LICENSE)
 
-Runtime type guard utilities with TypeScript narrowing.
+Runtime type guard utilities with TypeScript narrowing
 
 ## Installation
 
