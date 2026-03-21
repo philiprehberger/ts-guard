@@ -1,7 +1,7 @@
-# @philiprehberger/ts-guard
+# @philiprehberger/guard
 
 [![CI](https://github.com/philiprehberger/ts-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-guard/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-guard.svg)](https://www.npmjs.com/package/@philiprehberger/ts-guard)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/guard.svg)](https://www.npmjs.com/package/@philiprehberger/guard)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-guard)](LICENSE)
 
 Runtime type guard utilities with TypeScript narrowing
@@ -9,13 +9,13 @@ Runtime type guard utilities with TypeScript narrowing
 ## Installation
 
 ```bash
-npm install @philiprehberger/ts-guard
+npm install @philiprehberger/guard
 ```
 
 ## Usage
 
 ```ts
-import { isString, isNumber, isArrayOf, isObjectWith, assert } from '@philiprehberger/ts-guard';
+import { isString, isNumber, isArrayOf, isObjectWith, assert } from '@philiprehberger/guard';
 
 if (isString(val)) {
   val.toUpperCase(); // narrowed to string
@@ -37,7 +37,7 @@ assert(input, isArrayOf(isString)); // throws or narrows to string[]
 ### Composing Guards
 
 ```ts
-import { isOneOf, isString, isNumber, isTupleOf } from '@philiprehberger/ts-guard';
+import { isOneOf, isString, isNumber, isTupleOf } from '@philiprehberger/guard';
 
 const isStringOrNumber = isOneOf(isString, isNumber);
 const isPair = isTupleOf(isString, isNumber);
