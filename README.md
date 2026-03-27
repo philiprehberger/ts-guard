@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/ts-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-guard/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/guard.svg)](https://www.npmjs.com/package/@philiprehberger/guard)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-guard)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Runtime type guard utilities with TypeScript narrowing
 
