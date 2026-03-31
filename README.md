@@ -2,8 +2,7 @@
 
 [![CI](https://github.com/philiprehberger/ts-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-guard/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/guard.svg)](https://www.npmjs.com/package/@philiprehberger/guard)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-guard)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/ts-guard)](https://github.com/philiprehberger/ts-guard/commits/main)
 
 Runtime type guard utilities with TypeScript narrowing
 
@@ -60,7 +59,6 @@ isPair(['hello', 42]);     // true
 | `isTupleOf(...guards)` | Tuple matching guards positionally |
 | `assert(value, guard, message?)` | Throw if guard fails, narrow otherwise |
 
-
 ## Development
 
 ```bash
@@ -69,6 +67,24 @@ npm run build
 npm test
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/ts-guard)
+
+🐛 [Report issues](https://github.com/philiprehberger/ts-guard/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/ts-guard/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
